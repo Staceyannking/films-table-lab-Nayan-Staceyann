@@ -1,6 +1,7 @@
 * {
     background-color: #0e0e0e;
     box-sizing: border-box;
+    font-family: Helvetica;
 }
 
 main {
@@ -20,6 +21,8 @@ h1 {
 table {
     margin-left: 25px;
     margin-right: 30px;
+    position: absolute;
+    top: 72px;
 }
 
 thead {
@@ -27,9 +30,23 @@ thead {
     color: white;
     border: 2px solid white;
     border-collapse: collapse;
+    font-size: 20px;
 }
-
 
 tbody tr td {
     background-color: white;
+}
+
+/*.film {*/
+/*    padding: 40px 55px;*/
+/*    border-right: 1px solid white;*/
+
+
+.year {
+    width: 160px;
+    height: 50px;
+}
+
+.synopsis {
+    display: inline-block
 }
