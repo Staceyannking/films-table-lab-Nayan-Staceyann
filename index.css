@@ -1,8 +1,11 @@
+
+
 * {
     background-color: black;
     box-sizing: border-box;
     font-family: Helvetica;
     border-collapse: collapse;
+    
 }
 
 main {
@@ -10,12 +13,13 @@ main {
     height: 763px;
     width: 1070px;
     position: absolute;
-    left: 185px;
-    top: 0px;
+    left: 350px;
+    top:50px;
 }
 
 table {
     width: 96%;
+    margin: auto;
 }
 
 td, thead th {
