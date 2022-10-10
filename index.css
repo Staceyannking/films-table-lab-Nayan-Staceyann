@@ -14,7 +14,8 @@ main {
     width: 1070px;
     position: absolute;
     left: 350px;
-    top:50px;
+    top: 50px;
+    margin: center;
 }
 
 table {
